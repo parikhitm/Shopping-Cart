@@ -8,6 +8,7 @@
 .home p {
     font-size: 20px;
     font-weight: 550;
+    color: black;
 }
 
 .home a {
@@ -16,4 +17,9 @@
     text-decoration: none;
     font-weight: 600;
     font-style: italic;
+}
+
+.home h1 {
+    font-size: 45px;
+    color: black;
 }

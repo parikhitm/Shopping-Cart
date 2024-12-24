@@ -8,6 +8,12 @@
 
   .cart-page h2 {
     font-size: 33px;
+    color: black;
+  }
+
+  .cart-page p {
+    font-size: 18px;
+    color: black;
   }
   
   .cart-items {
@@ -46,11 +52,13 @@
     font-size: 22px;
     margin: 0;
     text-align: right;
+    color: black;
   }
 
   .cart-info p {
     font-size: 18px;
     font-weight: bold;
+    color: black;
   }
 
   .cart-info input {
@@ -59,6 +67,7 @@
     border-radius: 8px;
     padding: 8px;
     text-align: center;
+    color: black;
   }
 
   .cart-info button {
@@ -75,6 +84,7 @@
 
 .cart-summary h3 {
   font-size: 25px;
+  color: black;
 }
 
 .cart-summary button {
@@ -107,6 +117,7 @@
   .checkout-modal form h2 {
     font-size: 29px;
     margin: 0;
+    color: black;
   }
 
 .checkout-modal form label {
@@ -116,6 +127,7 @@
   gap: 20px;
   justify-content: space-between;
   align-items: center;
+  color: black;
 }
 
 .checkout-modal form label input {
@@ -126,6 +138,7 @@
   height: 30px;
   padding: 0 20px;
   font-size: 16px;
+  color: black;
 }
   
   .actions {

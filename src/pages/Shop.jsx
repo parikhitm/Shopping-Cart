@@ -8,7 +8,10 @@ export function Shop() {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        fetch("/api/products")
+        const apiUrl = import.meta.env.PROD 
+            ? 'https://dummyjson.com/products'
+            : '/api/products';
+        fetch(apiUrl)
         .then(res => {
             if (!res.ok) {
                 throw new Error(`HTTP error! status: ${res.status}`);
