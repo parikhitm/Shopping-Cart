@@ -1,0 +1,13 @@
+.about {
+    width: 75%;
+}
+
+.about h1 {
+    font-size: 45px;
+    color: black;
+}
+
+.about p {
+    font-size: 20px;
+    color: black;
+}
