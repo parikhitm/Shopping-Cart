@@ -19,10 +19,12 @@ A modern e-commerce shopping cart built with React and Vite, featuring dynamic p
  - dummyjson.com API
  - CSS Modules
 
+## [Deployed Version](https://shopping-cart-9dh.pages.dev/)
+
 ## Installation
 ```
 # Clone the repository
-git clone [your-repo-url]
+git clone git@github.com:parikhitm/Shopping-Cart.git
 
 # Navigate to project directory
 cd shopping-cart
