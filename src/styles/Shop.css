@@ -11,6 +11,7 @@
   font-weight: bold;
   margin: 0;
   margin-top: 20px;
+  color: black;
 }
 
 .products-grid {
@@ -38,11 +39,13 @@
 
 .product-card h3 {
   font-size: 23px;
+  color: black;
 }
 
 .product-card p {
   font-size: 20px;
   font-weight: bolder;
+  color: black;
 }
   
   .product-card img {
@@ -80,8 +83,12 @@
     width: 50px;
     text-align: center;
     border-radius: 5px;
+    color: black;
+    background-color: white;
   }
 
   .quantity-controls button {
     border-radius: 5px;
+    color: black;
+    background-color: white;
   }

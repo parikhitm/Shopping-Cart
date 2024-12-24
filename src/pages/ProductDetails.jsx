@@ -13,7 +13,10 @@ export function ProductDetails() {
     const { addToCart } = useContext(CartContext);
 
     useEffect(() => {
-        fetch(`/api/products/${id}`)
+        const apiUrl = import.meta.env.PROD 
+            ? `https://dummyjson.com/products/${id}`
+            : `/api/products/${id}`;
+        fetch(apiUrl)
         .then(res => {
             if (!res.ok) {
                 throw new Error(`HTTP error! status: ${res.status}`);
